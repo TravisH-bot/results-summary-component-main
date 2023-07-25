@@ -30,6 +30,7 @@
   --white: hsl(0, 0%, 100%);
   --pale-blue: hsl(221, 100%, 96%);
   --light-lavender: hsl(241, 100%, 89%);
+  --light-lavender-opaque: hsla(241, 100%, 89%, 0.5);
   --dark-gray-blue: hsl(224, 30%, 27%);
 }
 
@@ -55,6 +56,7 @@ body {
   width: 44em;
   background-color: var(--white);
   border-radius: 2em;
+  box-shadow: 1em 0.5em 0.5em var(--light-lavender-opaque);
 }
 
 .results {
